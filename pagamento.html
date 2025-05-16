@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Pagamento - Live Pix</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #eef1f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .container {
+            max-width: 500px;
+            margin: 60px auto;
+            background: #ffffff;
+            padding: 35px 30px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #0a8d48;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+
+        p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        .qr-code {
+            max-width: 250px;
+            width: 100%;
+            margin: 25px auto;
+            display: block;
+        }
+
+        .pix-section {
+            margin-top: 20px;
+        }
+
+        .pix-label {
+            font-weight: bold;
+            margin-bottom: 8px;
+            color: #222;
+        }
+
+        .pix-code {
+            background: #f8f8f8;
+            padding: 15px;
+            border: 1px dashed #ccc;
+            border-radius: 8px;
+            word-break: break-word;
+            font-family: monospace;
+            font-size: 14px;
+            color: #444;
+            text-align: left;
+        }
+
+        .instructions {
+            margin-top: 25px;
+            font-size: 15px;
+            color: #666;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #0a0a0a;
+            color: #fff;
+            margin-top: 60px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Finalize seu pagamento</h1>
+    <p>Escaneie o QR Code com seu app bancário ou copie o código Pix abaixo:</p>
+
+    <img src="qr code.png" alt="QR Code Pix" class="qr-code">
+
+    <div class="pix-section">
+        <div class="pix-label">Código Pix:</div>
+        <div class="pix-code">
+            00020101021126580014br.gov.bcb.pix01362fc8fd02-fa45-4ff3-80a4-1c2f3439231b520400005303986540514.005802BR5907LIVEPIX6009SAO PAULO62280524682683b244147d3b3e08d8276304A352
+        </div>
+    </div>
+
+    <div class="instructions">
+        Após o pagamento, você receberá os dados de acesso no e-mail cadastrado.
+    </div>
+</div>
+
+<footer>
+    &copy; 2025 Live Pix - Todos os direitos reservados
+</footer>
+
+</body>
+</html>
